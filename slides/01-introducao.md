@@ -2,21 +2,30 @@
 marp: true
 title: Introdução a CPS, AADL e ROS
 author: Ana Barbosa, Wenderson Nascimento
-theme: default
-size: 4:3
+keywords: cyber-physical, systems, embeded
+theme: main
 paginate: true
 _paginate: false
+# size: 4:3
+footer: IFRN CNAT
 ---
+<!-- _class: title -->
+
+<!-- Técnicas e Ferramentas para Modelagem e Análise de Comunicação em Sistemas Ciberfísicos -->
 
 # Introdução a CPS, AADL e ROS
 
----
+Ana Barbosa, Wenderson Nascimento
 
+2025
+
+---
+<!-- _class: style_a -->
 ## Cyber-physical Systems (CPS)
 
-O termo *Sistemas Ciber-físicos* se refere aos sistemas com integração computacional e capacidades físicas que conseguem interagir com humanos de diferentes formas.
+O termo *Sistemas Ciberfísicos* se refere aos sistemas com integração computacional e capacidades físicas que conseguem interagir com humanos de diferentes formas.
 
-Pesquisas voltadas para sistemas ciber-físicos tem como objetivo integrar principios e conhecimento entre computação e engenharia para desenvolver uma ciência de sistemas ciber-físicos e tecnologias de suporte relacionadas.
+Pesquisas voltadas para sistemas ciberfísicos tem como objetivo integrar principios e conhecimento entre computação e engenharia para desenvolver uma ciência de sistemas ciberfísicos e tecnologias de suporte relacionadas.
 
 ---
 
