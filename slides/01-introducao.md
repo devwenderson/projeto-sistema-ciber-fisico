@@ -37,6 +37,13 @@ Existem diversas oportunidades de pesquisa e desenvovimento como:
 
 ---
 
+### Exemplo de CPS
+
+![imagem-de-robo-na-agricultura](./img/image1.png)
+Robô na agricultura
+
+---
+
 ## Architecture Analysis & Design Languange (AADL)
 
 A AADL é uma linguagem de modelagem, utilizada para modelar e analisar arquiteturas de sistemas ciber-físicos e embarcados.
