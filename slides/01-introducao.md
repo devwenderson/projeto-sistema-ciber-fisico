@@ -57,7 +57,17 @@ Na AADL, um componente é caracterizado por seu nome único, interfaces, propied
 
 ### Análise de Arquitetura
 
-A AADL pode ser usada para modelar e analisar sistemas em uso, prototipar e integrar novos sistemas. Com a linguagem principal, um conjunto de propriedades pode ser declaradas, que pode incluir novas propriedades para outros componenetes ou elementos, como portas e conexões.
+A AADL pode ser usada para modelar e analisar sistemas em uso, prototipar e integrar novos sistemas. Com essa linguagem, conjuntos de propriedades podem ser declarados, permitindo a inclusão de novas propriedades para outros componenetes ou elementos, como portas e conexões.
+
+---
+### Robot Operating System (ROS)
+
+O ROS é uma coleção de bibliotecas e ferramentas robóticas de código-aberto voltadas para a contrução de softwares de robôs. 
+
+---
+### Para que o ROS serve?
+
+O ROS abstrai toda a camada de _hardware_ e facilitar a configuração de cada parte do robô através dos pacotes de seu ecossistema.
 
 ---
 
@@ -66,3 +76,5 @@ A AADL pode ser usada para modelar e analisar sistemas em uso, prototipar e inte
 The Architecture Analysis & Design Language (AADL): An Introduction. Disponível em: https://apps.dtic.mil/sti/html/tr/ADA455842/
 
 Cyber-physical Systems. Disponível em: https://ieeexplore.ieee.org/abstract/document/7912263/
+
+Software engineering research on the Robot Operating System: A systematic mapping study. Disponível em: https://www.sciencedirect.com/science/article/pii/S0164121222002503
