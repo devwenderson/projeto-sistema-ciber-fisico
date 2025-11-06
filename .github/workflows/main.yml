@@ -38,6 +38,9 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
+      - name: Get theme from raw.github
+        run: mkdir -p slides/themes && curl -L -o slides/themes/barbosa.css https://raw.githubusercontent.com/dvanael/marp-barbosa/refs/heads/main/theme/barbosa.css
+
       - name: Ensure build dir exists
         run: mkdir -p build
 
@@ -47,14 +50,14 @@ jobs:
       - name: Marp Build html (build folder)
         uses: docker://marpteam/marp-cli:v4.1.1
         with:
-          args: -I slides/ -o build/ --set-theme slides/themes/base.css
+          args: -I slides/ -o build/ --set-theme slides/themes/barbosa.css
         env:
           MARP_USER: root:root
 
       - name: Marp Build pdf (build folder)
         uses: docker://marpteam/marp-cli:v4.1.1
         with:
-          args: --pdf --pdf-outlines --allow-local-files -I slides/ -o build/ --set-theme slides/themes/base.css
+          args: --pdf --pdf-outlines --allow-local-files -I slides/ -o build/ --set-theme slides/themes/barbosa.css
         env:
           MARP_USER: root:root
 
